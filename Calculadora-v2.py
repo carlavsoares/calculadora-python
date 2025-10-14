@@ -26,7 +26,7 @@ def calculadora():
             case _:
                 print("\nOPCAO INVALIDA! TENTE NOVAMENTE")
 
-        continuar = input("\nDeseja continuar? [S/N]").strip().upper()[0]
+        continuar = input("\nDeseja continuar[S/N]?: ").strip().upper()[0]
         if continuar != 'S':
             print ("\nEncerrando o programa...")
             break
